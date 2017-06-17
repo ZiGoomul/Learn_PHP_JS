@@ -1,2 +1,0 @@
-# learning
-Crowdin Space test
