@@ -1,0 +1,20 @@
+<meta charset="utf-8">
+<script>
+var name = prompt("Ты кто?");
+alert("Привет, " + name +", попробуй ка попасть в мишень!");
+var angleOne = parseInt(prompt("введи угол первого выстрела от 0 до 90 градусов"));
+var angleTwo = parseInt(prompt("введи угол второго выстрела от 0 до 90 градусов"));
+
+if (isNaN(angleOne) || isNaN(angleTwo)) {
+	alert("Чтож ты " + name + " числа от букв не отличаешь?")
+} else if(((angleOne < 30) && (angleOne > 10)) || ((angleTwo < 30) && (angleTwo > 10))) {
+		alert("Молодец," + name + ", ты попал в первую мишень");
+	} else if(((angleOne < 60) && (angleOne > 45)) || ((angleTwo < 60) && (angleTwo > 45))) {
+		alert("Молодец," + name + ", ты попал во вторую мишень");
+	} else if(((angleOne < 0) || (angleOne > 90)) || ((angleTwo <0) || (angleTwo > 90))) {
+		alert("Сказано же тебе, только от 0 до 90");
+	} else {
+	alert("Мазила ты "+ name);
+}
+
+</script>

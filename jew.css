@@ -1,0 +1,84 @@
+body
+{
+	background-size: 100% auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+	font-size: 48px;
+	margin: auto;
+	background:blue;
+	color:#FFF;
+}
+div.shekelDisplay, .magicCenterElement, h1 {
+	width: 100%;
+	text-align: center;
+}
+div.shekelDisplay {
+	font-family: Helvetica;
+	font-size: 25px;
+	background:blue;
+	color:#FFF;
+	text-align: center;
+}
+button
+{
+	background:#660000;
+	color:#FFF;
+}
+.buyButton {
+	width: 230px;
+	height: 75px;
+	white-space: normal;
+}
+#slogan
+{
+background:blue;
+color:#FFF;
+font-style: italic;
+}
+#allTimeDicksSucked {
+	margin-bottom: 30px;
+	font-style: italic;
+}
+#allTimeDicksSucked {
+	font-size: 12px;
+}
+#stoleShekelButton {
+	width: 400px;
+	height: 100px;
+	background:black;
+	color:#FFF;
+	font-size:20pt;
+}
+.hidden {
+	display: none;
+}
+#shopContainer, #grafixContainer {
+	padding: auto;
+}
+#shopContainer {
+/*	margin-left: 2%;
+	width: 275px; */
+	margin: 0 auto;
+	height: 275px;
+}
+#grafixContainer {
+	margin:auto;
+}
+#footer {
+	margin-bottom: 10px;
+	bottom: 0; 
+	width: 99%;
+}
+#version
+{
+	margin-left: auto;
+	margin-right: auto;
+	color: #30F;
+	background-color: #FF0;
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
+	font-size: 9px;
+}
+.grafix {
+}
