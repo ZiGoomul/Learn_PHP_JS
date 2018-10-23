@@ -4,14 +4,22 @@
 	<meta charset="UTF-8">
 	<title>Обучение класическому JS</title>
 </head>
-<body>
-<h1>Title</h1>
-<h2>Title</h2>
-<h3>Title</h3>
-<h4>Title</h4>
-<h5>Title</h5>
-<h6>Title</h6>
-<p>jfdshshfhfsihfihf ihsfhsfhfsihfi ihfihsihoihsfoihfo ihsihsgih</p>
+<script type="text/javascript">
 
+const sequenceSum = (begin,end) => {
+  if (begin > end) {
+    return NaN;
+  }
+  else if(begin === end){
+    return end;
+  } else if(begin < end){
+  	return begin + sequenceSum(begin+1,end);
+  }
+}
+
+const answer = sequenceSum(4, 10);
+console.log('Список задач', answer);
+
+</script>
 </body>
 </html>
